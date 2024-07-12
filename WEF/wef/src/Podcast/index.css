@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+.podcast {
+    margin-top: 20%;
+    font-family: "Aclonica", sans-serif;
+  }
+  
+  .page-intro {
+    text-align: center;
+    margin-top: 4%;
+  }
+  .dot-top {
+    background-color: #17736a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 84%;
+  }
+  .top-name {
+    font-size: 98px;
+    color: #17736a;
+  }
+  .podcast-name {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+  }
+  
+  .middle-section {
+    display: flex;
+  }
+  .dot {
+    background-color: #17736a;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-left: 27%;
+    margin-bottom: 0.8%;
+  }
+  .release-date {
+    background-color: #f24c27;
+    height: 408px;
+    position: relative;
+    padding: 8px;
+    display: flex;
+  }
+  .release {
+    opacity: 45%;
+    margin-left: 55%;
+    width: 612px;
+  }
+  .joinText {
+    width: 20%;
+    font-size: 48px;
+    position: absolute;
+    color: white;
+    margin-top: 10%;
+    margin-left: 29%;
+  }
+  
+  .mic {
+    margin-left: 35%;
+    width: 300px;
+    height: 300px;
+  }
+  .container {
+    margin-left: 18%;
+  }
+  button {
+    background-color: #fff9f8;
+    width: 160px;
+    margin-bottom: 8%;
+    margin-left: 6%;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #f24c27;
+    font-size: 32px;
+  }
+  
+  @media screen and (min-width: 280px) and (max-width: 480px) {
+    .page-intro {
+      text-align: center;
+      /* margin-top: -0.8%; */
+    }
+    .dot-top {
+      width: 30px;
+      height: 30px;
+    }
+    .top-name {
+      font-size: 68px;
+    }
+    .podcast-name {
+      display: flex;
+      flex-direction: column;
+      margin-left: 30%;
+    }
+  
+    .middle-section {
+      display: flex;
+    }
+    .dot {
+      background-color: #17736a;
+      width: 30px;
+      height: 30px;
+      border-radius: 50px;
+      margin-left: 27%;
+      margin-bottom: 0.8%;
+    }
+    .release-date {
+      background-color: #f24c27;
+      height: 408px;
+      position: relative;
+      padding: 8px;
+      display: flex;
+    }
+    .release {
+      opacity: 45%;
+      margin-left: 5%;
+      width: 612px;
+    }
+    .joinText {
+      width: 20%;
+      font-size: 64px;
+      position: absolute;
+      color: white;
+      margin-top: -15%;
+      margin-left: 9%;
+    }
+  
+    .mic {
+      margin-left: 15%;
+      width: 300px;
+      height: 300px;
+    }
+    .container {
+      margin-left: 18%;
+    }
+    button {
+      background-color: #fff9f8;
+      width: 160px;
+      margin-bottom: 5%;
+      margin-left: 6%;
+      height: 40px;
+      border: none;
+      border-radius: 10px;
+      color: #f24c27;
+      font-size: 32px;
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 680px) {
+  }
+  @media screen and (min-width: 681px) and (max-width: 880px) {
+  }
+  @media screen and (min-width: 881px) and (max-width: 1080px) {
+  }
+  
+  @media screen and (min-width: 1081px) and (max-width: 1280px) {
+  }
+  
+  @media screen and (min-width: 1281px) and (max-width: 1480px) {
+  }

@@ -1,0 +1,293 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    font-size: 20px;
+    font-family: "Aclonica", sans-serif;
+  
+  }
+  .logo{
+    width: 28%;
+
+} 
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px; 
+    
+}
+.nav-logo p{
+    color: #1D736A;
+    font-size: 32px;
+    font-weight: 600;
+
+
+}
+.nav-menu li.active {
+  font-weight: bold;
+  color: #1D736A;
+}
+  .nav-menu {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    padding-right: 5%;
+   
+    
+  }
+  .nav-menu li {
+    cursor: pointer;
+    padding-left: 2%;
+    color: #F24C27;
+  }
+  .nav-menu li:after{
+    color: #1D736A;
+    
+  }
+  .nav-menu li.active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+   color: #1D736A;
+  }
+  .icon {
+    display: none;
+  }
+  .cancel-btn{
+    display: none;
+  }
+  .cancel-btn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 12px 16px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    display: none;
+  }
+  
+  .cancel-btn:hover {
+    color: #000;
+  }
+  
+
+  
+  @media only screen and (max-width: 768px) {
+   .nav-menu {
+      position: absolute;
+      right: 0;
+      top: 0px;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      display: none;
+      background-color: rgba(0, 0, 0, 0.747);
+      color: white;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      
+      
+    }
+  
+   .nav-menu.open {
+      display: block;
+    }
+  
+   .icon {
+      display: block;
+      border: none;
+      font-size: 20px;
+    }
+    .cancel-btn{
+        display: none;
+      }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-right: 10%;
+        font-size: 15px;
+        margin-left: 0;
+     
+      }
+      .nav-logo p{
+        color: #1D736A;
+        font-size: 14px;
+        font-weight: 600;
+    
+    }
+    .logo{
+        width: 20%;
+    
+    } 
+   .nav-logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 20px; 
+        padding-left: 25px;
+        
+    }
+     .cancel-btn{
+        padding: 6px 10px;
+        font-size: 18px;
+      }
+      .nav-menu.open {
+        max-height: 100%; 
+      }
+      .nav-menu li.active {
+        font-weight: bold;
+        color: #1D736A;
+      }
+      .nav-menu li {
+        list-style-type: none;
+        margin-bottom: 2px;
+        cursor: pointer;
+        padding: 20px;
+        font-size: 20px;
+      }
+
+      
+      .cancel-btn {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 6px;
+        cursor: pointer;
+        background-color: rgba(0, 0, 0, 0.041);
+        color: white;
+        border: none;
+        padding: 43px;
+        font-size: 20px;
+      } 
+      
+
+  }
+
+
+
+
+  @media screen and (min-width: 769px) and (max-width: 1024px){
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* padding-right: 22%; */
+    font-size: 20px;
+    margin-left: 0px;
+ 
+  }
+  .logo{
+    width: 28%;
+
+} 
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px; 
+    padding-left: 100px;
+
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 70px;
+  width: 46%;
+  
+}
+.icon {
+   display: none;
+ }
+.nav-logo p{
+    color: #1D736A;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+  
+  .nav-menu li {
+    cursor: pointer;
+  }
+  
+  .nav-menu li.active::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 100%;
+  }
+   }
+
+ 
+
+
+@media screen and (min-width: 1025px) and (max-width: 1620px) {
+    .navbar{
+        display: flex;
+        gap: 40%;
+        padding-left: 50px;
+        padding: 15px;
+        padding-right: 8%;
+        font-size: 20px;
+       
+        
+    }
+
+.logo{
+  width: 48%;
+
+} 
+
+.nav-logo{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px; 
+  padding-left: 80px;
+
+}
+.nav-logo p{
+  color: #1D736A;
+  font-size: 32px;
+  font-weight: 600;
+
+}
+
+  
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  gap: 70px;
+  width: 100%;
+  padding-left: 8%;
+}
+
+.nav-menu li {
+  cursor: pointer;
+}
+
+.nav-menu li.active::after {
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+}
+
+.icon {
+  display: none;
+}   
+
+}

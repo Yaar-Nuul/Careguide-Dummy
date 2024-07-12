@@ -1,0 +1,245 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&family=Besley:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+.container{
+    display: flex;
+    gap: 20px;
+   
+}
+.landing-page-text{
+    font-weight: 600;
+    padding: 20px;
+    padding-right: 60px;
+    width: 40%;
+    margin-left: 1%;
+    text-align: start;
+    color: #17736A;
+    font-family: "Aclonica", sans-serif;
+}
+.landing-page-text h3{
+    color: #17736A;
+    font-size: 40px;
+
+
+}
+.landing-page-text p{
+    font-size: 24px;
+    font-family: "Besley", serif;
+}
+.get-started{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+.btnGetStarted{
+    outline: none;
+    border: none;
+    padding: 14px;
+    border-radius: 14px;
+    background-color: #F24C27;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btnGetStarted:active{
+    border: 1px solid #F24C27;
+    color: #F24C27;
+    background: white;
+}
+.btnLearnMore{
+    border: 1px solid #F24C27;
+    color: #F24C27;
+    background: white; 
+    font-size: 25px;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 14px;
+    border-radius: 14px;
+}
+.btnLearnMore:active{
+    background-color: #F24C27;
+    color: white;
+}
+
+.landing-page-image{
+    display: flex;
+    gap: 2px;
+    margin-left:10%;
+}
+.front-student{
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+}
+/* .front-row-image{
+display: grid;
+} */
+.image-students{
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+}
+.image-last-row{
+    display: grid;
+    gap: 5px;
+    width: 18%;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .landing-page-text {
+        font-size: 20px;
+        font-weight: 300;
+        padding: 10px;
+        padding-left: 20px;
+        width: 50%;
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    .landing-page-text h1 {
+        color: #0a3464;
+        font-size: 30px;
+    }
+    .landing-page-text p {
+        font-size: 20px;
+    }
+    .get-started {
+        display: flex;
+        align-items: center;
+    }
+    .image-students{
+        width: auto;
+        margin-left: 0;
+        width: 80%;
+    }
+    .get-started button {
+        width: 50%;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background-color: #50C878;
+        color: black;
+        font-size: 12px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .get-started button:active {
+        border-color: rgb(64, 128, 64);
+        color: rgb(64, 128, 64);
+        background-color: white;
+    }
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px){
+    .container {
+        display: flex;
+ 
+    }
+    .landing-page-text {
+        font-size: 20px;
+        font-weight: 300;
+        padding: 50px;
+        padding-left: 80px;
+        margin-top: 10px;
+        margin-left: 0;
+        
+    }
+    .landing-page-text h1 {
+        color: #0e488a;
+        font-size: 40px;
+
+    }
+    .landing-page-text p {
+        font-size: 25px;
+    }
+    .get-started {
+        display: flex;
+        align-items: center;
+    }
+    .image-students{
+        width: auto;
+        margin-left: 0;
+        width: 80%;
+    }
+    .get-started button {
+        width: 40%;
+        height: 30px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background-color: #50C878;
+        color: black;
+        font-size: 14px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .get-started button:active {
+        border-color: rgb(64, 128, 64);
+        color: rgb(64, 128, 64);
+        background-color: white;
+    }
+    
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1820px){
+    .container{
+        display: flex;
+        gap: 20px;
+    
+        
+    }
+    .landing-page-text{
+        font-size: 32px;
+        font-weight: 600;
+        padding: 20px;
+        padding-left: 100px;
+        width: 50%;
+    }
+    .landing-page-text h1{
+        color: #0e488a;
+    }
+    .landing-page-text p{
+        font-size: 40px;
+    }
+    .landing-page-image{
+        width: 60%;
+    }
+    
+    .get-started{
+        display: flex;
+        align-items: center;
+    }
+    .get-started button{
+        width: 30%;
+        height: 50px;
+        outline: none;
+        border: none;
+        border-radius: 20px;
+        background-color: #50C878;
+        color: black;
+        font-size: 20px;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    .get-started button:active{
+        border: 1px solid rgb(64, 128, 64);
+        color: rgb(64, 128, 64);
+        background: white;
+    }
+
+}
